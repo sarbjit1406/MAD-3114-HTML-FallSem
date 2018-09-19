@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Exercise</title>
+</head>
+
+<body>
+<form onsubmit="return false">
+
+<p>Number1: <input name="x" type="number" min="100" step="5" value="100"> +
+<p>Number1: <input name="y" type="number" min="100" step="5" value="100"> <br><br>
+<input type="button" value = "+" onclick="result.value = parseInt(x.value) + parseInt(y.value)">
+<br><br>
+
+
+<input type="button" value = "-" onclick="result.value = parseInt(x.value) - parseInt(y.value)">
+<br><br>
+
+
+<input type="button" value = "*" onclick="result.value = parseInt(x.value) * parseInt(y.value)">
+<br><br>
+
+<input type="button" value = "/" onclick="result.value = parseInt(x.value) / parseInt(y.value)">
+<br><br>
+<input type="reset" name="resetform" value="clear">
+Total: <output name="result" for= "x y"></output>
+
+</form>
+
+</body>
+
+</html>
